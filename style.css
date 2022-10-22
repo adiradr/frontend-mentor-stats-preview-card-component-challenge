@@ -1,0 +1,87 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.main-background {
+  margin: 100px 145px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0;
+  justify-content: center;
+}
+
+.card-background {
+  background-color: hsl(244, 38%, 16%);
+  grid-column: 1;
+  width: 540.500px;
+  height: 446px;
+  display: inline-block;
+}
+
+.image-header {
+  filter: hue-rotate(90deg);
+  grid-column: 2;
+  display: inline-block;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  display: inline-block;
+  margin: 50px 75px auto;
+  text-align: left;
+}
+
+.insights {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Inter', sans-serif;
+  margin: 25px 75px;
+  padding-right: 25px;
+  text-align: left;
+}
+
+table {
+  margin: 50px 75px auto;
+  text-align: center;
+}
+
+.stat-headings {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+}
+
+.stats {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+th {
+  padding-right: 35px;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+td {
+  padding-right: 35px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
